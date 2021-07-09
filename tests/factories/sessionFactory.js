@@ -1,5 +1,5 @@
 const Buffer = require('safe-buffer').Buffer;
-const Keygrip = require('Keygrip');
+const Keygrip = require('Keygrip')();
 const keys = require('../../config/keys');
 
 const keygrip = new Keygrip([keys.cookieKey]);
